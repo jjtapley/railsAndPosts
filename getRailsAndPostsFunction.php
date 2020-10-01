@@ -20,8 +20,6 @@ function getRailsAndPosts($userLengthOfFence) {
         echo "Please enter a value above 1.";
     } else {
         echo "<br>If you had a fence that is $userLengthOfFence meters long, you would need $totalPosts posts, and $totalRails railings.";
-        echo "<br>" . $totalPosts;
-        echo "<br>" . $totalRails;
         echo "<br>" . "With $totalPosts posts and $totalRails rails, you could build a fence $result meters long. This is over requirements by: $overShot meters.";
     }
 }
